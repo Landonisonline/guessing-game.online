@@ -1,0 +1,31 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    background-size: cover;
+    background-color: rgb(120, 61, 214);
+    background-image: linear-gradient(rgb(120, 61, 214), rgb(28, 7, 119));
+}
+
+h1 {
+    color: white;
+    font-style: italic;
+    font-size: 50px;
+}
+
+p {
+    color: white;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+#wordWas {
+    text-decoration: underline;
+}
+
+#lifeInfo {
+    font-size: 15px;
+}
