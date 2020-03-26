@@ -23,7 +23,7 @@ var randomWordList = ["apple", "banana", "orange", "berry"];
         {
           if (randomWord[i] === letter){
             answerArray[i] = letter;
-            score = score + 100;
+            score = score + 1000;
             document.getElementById("score").innerHTML = "$" + score + ": Score";
             
           }
