@@ -24,7 +24,7 @@ var randomWordList = ["apple", "banana", "orange", "berry"];
           if (randomWord[i] === letter){
             answerArray[i] = letter;
             score = score + 100;
-            document.getElementById("score").innerHTML = score + " : score";
+            document.getElementById("score").innerHTML = score + "$ : Score";
             
           }
         }
@@ -32,7 +32,7 @@ var randomWordList = ["apple", "banana", "orange", "berry"];
         document.getElementById("lives").innerHTML = lives + " : Lives";
         
         
-        document.getElementById("lifeInfo").innerHTML = "Lives calulated by length of word + 5";
+        document.getElementById("lifeInfo").innerHTML = "Lives calculated by length of word + 5";
 
 
 
